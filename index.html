@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .common{
+                height: 100px;
+                width: 100px;
+                background-color: red;
+                border:1px solid rgb(79, 49, 49);
+                display: inline-block;
+                line-height: 100px;
+                margin:10px 10px;
+                text-align: center;                
+            }
+            .a{
+                background-color: tomato;                
+            }
+            .b{
+                background-color: orange;
+            }
+            .c{
+                background-color: dodgerBlue;
+            }.d{
+                background-color: mediumSeaGreen;
+            }.e{
+                background-color: Gray;
+            }.f{
+                background-color: SlateBlue;
+            }.g{
+                background-color: AntiqueWhite;
+            }.h{
+                background-color: Aqua;
+            }.i{
+                background-color: Aquamarine;
+            }.j{
+                background-color: Beige;
+            }.k{
+                background-color: BlanchedAlmond;
+            }.l{
+                background-color: Blue;
+            }.m{
+                background-color: BlueViolet;
+            }.n{
+                background-color: Brown;
+            }.o{
+                background-color: BurlyWood;
+            }.p{
+                background-color: CadetBlue;
+            }.q{
+                background-color: Chartreuse;
+            }.r{
+                background-color: Chocolate;
+            }.s{
+                background-color: Coral;
+            }.t{
+                background-color: CornflowerBlue;
+            }.u{
+                background-color: Cornsilk;
+            }.v{
+                background-color: Crimson;
+            }.w{
+                background-color: Cyan;
+            }.x{
+                background-color: DarkBlue;
+            }.y{
+                background-color: DarkCyan;
+            }.z{
+                background-color: DarkGoldenRod;
+            }
+            .a1{
+                background-color:DarkGray ;
+            }
+            .a2{
+                background-color:DarkGreen ;
+            }
+            .a3{
+                background-color: DarkKhaki;
+            }
+            .a4{
+                background-color: DarkMagenta;
+            }
+            .a5{
+                background-color: DarkOliveGreen;
+            }
+            .a6{
+                background-color: DarkOrange;
+            }
+            .a7{
+                background-color:DarkOrchid ;
+            }
+            .a8{
+                background-color: DarkRed;
+            }
+            .a9{
+                background-color:DarkSalmon ;
+            }
+            .a10{
+                background-color: DarkSeaGreen;
+            }
+            .a11{
+                background-color:DarkSlateBlue ;
+            }
+            .a12{
+                background-color: DarkSlateGray;
+            }
+            .a13{
+                background-color:DarkSlateGrey ;
+            }
+            .a14{
+                background-color:DarkTurquoise ;
+            }
+            .a15{
+                background-color:DarkViolet ;
+            }
+            .a16{
+                background-color:DeepPink ;
+            }
+            .a17{
+                background-color:DeepSkyBlue ;
+            }
+            .a18{
+                background-color: DimGray;
+            }
+            .a19{
+                background-color: DimGrey;
+            }
+            .a20{
+                background-color:DodgerBlue ;
+            }
+            .a21{
+                background-color:FireBrick ;
+            }
+            .a22{
+                background-color: ForestGreen;
+            }
+            .a23{
+                background-color:Fuchsia ;
+            }
+            .a24{
+                background-color: Gainsboro;
+            }
+            .a25{
+                background-color:GhostWhite ;
+            }
+            .a26{
+                background-color:Gold ;
+            }
+            .a27{
+                background-color: GoldenRod;
+            }
+            .a28{
+                background-color: GreenYellow;
+            }
+            .a29{
+                background-color: HoneyDew;
+            }
+            .a30{
+                background-color:HotPink ;
+            }
+            .a31{
+                background-color:IndianRed ;
+            }
+            .a32{
+                background-color: Indigo;
+            }
+            .a33{
+                background-color:Ivory ;
+            }
+            .a34{
+                background-color: Khaki;
+            }
+            .a35{
+                background-color:Lavender ;
+            }
+            .a36{
+                background-color: LavenderBlush;
+            }
+            .a37{
+                background-color:LawnGreen ;
+            }
+            .a38{
+                background-color:LemonChiffon ;
+            }
+            .a39{
+                background-color:LightBlue ;
+            }
+            .a40{
+                background-color:LightCoral ;
+            }
+            .a41{
+                background-color:LightCyan ;
+            }
+            .a42{
+                background-color:LightGoldenRodYellow ;
+            }
+            .a45{
+                background-color: LightGray;
+            }
+            .a46{
+                background-color: LightGreen;
+            }
+            .a47{
+                background-color: LightPink;
+            }
+            .a48{
+                background-color:LightSalmon ;
+            }
+            .a49{
+                background-color:LightSeaGreen ;
+            }
+            .a50{
+                background-color: LightSkyBlue;
+            }.a51{
+                background-color: LightSlateGray;
+            }.a52{
+                background-color: LightSlateGrey;
+            }.a53{
+                background-color:LightSteelBlue
+ ;
+            }.a54{
+                background-color: LightYellow;
+            }.a55{
+                background-color:Lime ;
+            }.a56{
+                background-color: LimeGreen;
+            }.a57{
+                background-color:Linen ;
+            }.a58{
+                background-color:Magenta ;
+            }.a59{
+                background-color: Maroon;
+            }.a60{
+                background-color: MediumAquaMarine;
+            }
+            .a61{
+                background-color: MediumBlue;
+            }.a61{
+                background-color: MediumOrchid;
+            }.a62{
+                background-color:MediumPurple ;
+            }.a63{
+                background-color: MediumSeaGreen;
+            }.a64{
+                background-color: MediumSlateBlue;
+            }.a65{
+                background-color: MediumSpringGreen;
+            }.a67{
+                background-color:MediumTurquoise ;
+            }.a68{
+                background-color: MediumVioletRed;
+            }.a69{
+                background-color: MidnightBlue;
+            }.a70{
+                background-color: MintCream;
+            }.a71{
+                background-color: MistyRose;
+            }.a72{
+                background-color: Moccasin;
+            }
+            .a73{
+                background-color:NavajoWhite ;
+            }
+            .a74{
+                background-color: Navy;
+            }
+            .a75{
+                background-color: OldLace;
+            }
+            .a76{
+                background-color: Olive;
+            }
+            .a77{
+                background-color: OliveDrab;
+            }
+            .a78{
+                background-color:Orange ;
+            }
+            .a79{
+                background-color:OrangeRed ;
+            }
+            .a80{
+                background-color:Orchid ;
+            }
+            .a81{
+                background-color: PaleGoldenRod;
+            }
+            .a82{
+                background-color: PaleGreen;
+            }.a83{
+                background-color:PaleTurquoise ;
+            }.a84{
+                background-color: PaleVioletRed;
+            }.a85{
+                background-color: PapayaWhip;
+            }.a86{
+                background-color:PeachPuff ;
+            }.a87{
+                background-color:Peru ;
+            }.a88{
+                background-color: Pink;
+            }.a89{
+                background-color: Plum;
+            }.a90{
+                background-color:PowderBlue ;
+            }.a91{
+                background-color:RebeccaPurple ;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="common a">1</div>
+        <div class="common b">2</div>
+        <div class="common c">3</div>
+        <div class="common d">4</div>
+        <div class="common e">5</div>
+        <div class="common f">6</div>
+        <div class="common g">7</div>
+        <div class="common h">8</div>
+        <div class="common i">9</div>
+        <div class="common j">10</div>
+        <div class="common k">11</div>
+        <div class="common l">12</div>
+        <div class="common m">13</div>
+        <div class="common n">14</div>
+        <div class="common o">15</div>
+        <div class="common p">16</div>
+        <div class="common q">17</div>
+        <div class="common r">18</div>
+        <div class="common s">19</div>
+        <div class="common t">20</div>
+        <div class="common u">21</div>
+        <div class="common v">22</div>
+        <div class="common w">23</div>
+        <div class="common x">24</div>
+        <div class="common y">25</div>
+        <div class="common z">26</div>
+        <div class="common a1">27</div>
+        <div class="common a2">28</div>
+        <div class="common a3">29</div>
+        <div class="common a4">30</div>
+        <div class="common a5">31</div>
+        <div class="common a6">32</div>
+        <div class="common a7">33</div>
+        <div class="common a8">34</div>
+        <div class="common a9">35</div>
+        <div class="common a9">36</div>
+        <div class="common a10">37</div>
+        <div class="common a11">38</div>
+        <div class="common a12">39</div>
+        <div class="common a13">40</div>
+        <div class="common a14">41</div>
+        <div class="common a15">42</div>
+        <div class="common a16">43</div>
+        <div class="common a17">44</div>
+        <div class="common a18">45</div>
+        <div class="common a19">46</div>
+        <div class="common a19">47</div>
+        <div class="common a20">48</div>
+        <div class="common a21">49</div>
+        <div class="common a22">50</div>
+        <div class="common a23">51</div>
+        <div class="common a24">52</div>
+        <div class="common a25">53</div>
+        <div class="common a26">54</div>
+        <div class="common a27">55</div>
+        <div class="common a28">56</div>
+        <div class="common a29">57</div>
+        <div class="common a30">58</div>
+        <div class="common a31">59</div>
+        <div class="common a32">60</div>
+        <div class="common a33">61</div>
+        <div class="common a34">62</div>
+        <div class="common a35">63</div>
+        <div class="common a36">64</div>
+        <div class="common a37">65</div>
+        <div class="common a38">66</div>
+        <div class="common a39">67</div>
+        <div class="common a40">68</div>
+        <div class="common a41">69</div>
+        <div class="common a42">70</div>
+        <div class="common a43">71</div>
+        <div class="common a44">72</div>
+        <div class="common a45">73</div>
+        <div class="common a46">74</div>
+        <div class="common a47">75</div>
+        <div class="common a48">76</div>
+        <div class="common a49">77</div>
+        <div class="common a50">78</div>
+        <div class="common a51">79</div>
+        <div class="common a52">80</div>
+        <div class="common a53">81</div>
+        <div class="common a54">82</div>
+        <div class="common a55">83</div>
+        <div class="common a56">84</div>
+        <div class="common a57">85</div>
+        <div class="common a58">86</div>
+        <div class="common a59">87</div>
+        <div class="common a60">88</div>
+        <div class="common a61">89</div>
+        <div class="common a63">90</div>
+        <div class="common a64">91</div>
+        <div class="common a65">92</div>
+        <div class="common a66">93</div>
+        <div class="common a67">94</div>
+        <div class="common a68">95</div>
+        <div class="common a69">97</div>
+        <div class="common a70">98</div>
+        <div class="common a71">99</div>
+        <div class="common a72">100</div>
+
+
+    </body>
+</html>
